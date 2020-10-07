@@ -7,4 +7,7 @@ time.sleep is used since the code will search the website too fast and if the el
 --------------------------------------------------------------------
 I could have used the twitch.tv API, but this was casuing problems, may look into it in the future...
 --------------------------------------------------------------------
+You will also require chrome driver, link; https://sites.google.com/a/chromium.org/chromedriver/home
+--------------------------------------------------------------------
 07/10/2020
+--------------------------------------------------------------------

@@ -7,7 +7,7 @@ twitch_streams = ["BigBorisBongBen", "ogfruittyyy", "ogsirtacticsfb"]
 
 def check_if_adam_live():
     try:
-        driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/div[2]/main/div[2]/div[3]/div/div/div[2]/div/div[2]/div/div/div/div[9]/div/div[2]/div[1]/div[1]/button")
+        driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/div[2]/main/div[2]/div[3]/div/div/div[2]/div/div[2]/div/div/div/div[5]/div/div[2]/div[1]/div[1]/button")
     except:
         print("Adam isn't live")
     else:
@@ -32,16 +32,16 @@ def check_if_robbie_live():
 
 def check_if_start_exists_adam():
     try:
-        driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/div[2]/main/div[2]/div[3]/div/div/div[2]/div/div[2]/div/div/div/div[9]/div/div[3]/button")
+        driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/div[2]/main/div[2]/div[3]/div/div/div[2]/div/div[2]/div/div/div/div[5]/div/div[3]/button")                                    
     except:
         print("doesnt exist")
     else:
         print("exists")
-        driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/div[2]/main/div[2]/div[3]/div/div/div[2]/div/div[2]/div/div/div/div[9]/div/div[3]/button").click()
+        driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/div[2]/main/div[2]/div[3]/div/div/div[2]/div/div[2]/div/div/div/div[5]/div/div[3]/button").click()
 
 def check_if_start_exists_ash():
     try:
-        driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/div[2]/main/div[2]/div[3]/div/div/div[2]/div/div[2]/div/div/div/div[8]/div/div[3]/button")
+        driver.find_element_by_xpath("/html/body/div[1]/div/div[2]/div[2]/main/div[2]/div[3]/div/div/div[2]/div/div[2]/div/div/div/div[5]/div/div[3]/button")
     except:
         print("doesnt exist")
     else:
