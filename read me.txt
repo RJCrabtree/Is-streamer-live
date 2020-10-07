@@ -1,0 +1,8 @@
+--------------------------------------------------------------------
+Created by Robert Crabtree
+--------------------------------------------------------------------
+installing requirements, in CMD, type; pip install requirements.txt
+--------------------------------------------------------------------
+time.sleep is used since the code will search the website too fast and if the elements are still loading, it will throw the exception even if they are meant to be there
+--------------------------------------------------------------------
+07/10/2020
